@@ -87,7 +87,7 @@ function askQuestion() {
     if (qIndex>4) {
         endGame()
     } else {
-        clear();
+        //clear();
         var questionDisplay = document.createElement("h4");
         questionDisplay.textContent = questionArr[qIndex].question;
         questionDiv.appendChild(questionDisplay);
